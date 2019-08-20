@@ -4,8 +4,8 @@
   "description": "Parses CreateJS based Adobe Animate Files",
   "main": "index.js",
   "scripts": {
-    "prepare": "COCO_BUILD=true babel src -d ./",
-    "build": "mkdir -p dist && COCO_BUILD=true babel src -d dist && cp package.json ./dist",
+    "prepare": "set COCO_BUILD=true babel src -d ./",
+    "build": "mkdir -p dist && set COCO_BUILD=true babel src -d dist && cp package.json ./dist",
     "test": "jasmine"
   },
   "author": "",
